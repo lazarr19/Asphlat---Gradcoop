@@ -1,0 +1,73 @@
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\content_layout.xml
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\main_layout.xml
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\result_layout.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+androidhud.ProgressWheel;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
+attr;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\values\attrs.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\90\res\layout\content_layout.xml
+Button;obj\Debug\90\res\layout\main_layout.xml
+cache-path;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\90\res\values\colors.xml
+color;obj\Debug\90\res\values\ic_launcher_background.xml
+corners;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
+corners;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
+corners;obj\Debug\90\res\mipmap-anydpi-v26\roundcorner.xml
+declare-styleable;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\values\attrs.xml
+dimen;obj\Debug\90\res\values\dimens.xml
+EditText;obj\Debug\90\res\layout\content_layout.xml
+EditText;obj\Debug\90\res\layout\main_layout.xml
+external-cache-path;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+gradient;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
+gradient;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
+ImageButton;obj\Debug\90\res\layout\main_layout.xml
+ImageView;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
+ImageView;obj\Debug\90\res\layout\content_layout.xml
+ImageView;obj\Debug\90\res\layout\main_layout.xml
+ImageView;obj\Debug\90\res\layout\result_layout.xml
+item;obj\Debug\90\res\menu\menu_main.xml
+item;obj\Debug\90\res\values\styles.xml
+LinearLayout;obj\Debug\90\res\layout\content_layout.xml
+LinearLayout;obj\Debug\90\res\layout\main_layout.xml
+LinearLayout;obj\Debug\90\res\layout\result_layout.xml
+LinearLayout;obj\Debug\90\res\layout\test_layout.xml
+menu;obj\Debug\90\res\menu\menu_main.xml
+paths;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+ProgressBar;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loading.xml
+RelativeLayout;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loading.xml
+RelativeLayout;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
+RelativeLayout;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
+RelativeLayout;obj\Debug\90\res\layout\main_layout.xml
+resources;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\values\attrs.xml
+resources;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\values\strings.xml
+resources;obj\Debug\90\res\values\colors.xml
+resources;obj\Debug\90\res\values\dimens.xml
+resources;obj\Debug\90\res\values\ic_launcher_background.xml
+resources;obj\Debug\90\res\values\strings.xml
+resources;obj\Debug\90\res\values\styles.xml
+ScrollView;obj\Debug\90\res\layout\result_layout.xml
+shape;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
+shape;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
+shape;obj\Debug\90\res\mipmap-anydpi-v26\border.xml
+shape;obj\Debug\90\res\mipmap-anydpi-v26\empty_tall_divider.xml
+shape;obj\Debug\90\res\mipmap-anydpi-v26\roundcorner.xml
+size;obj\Debug\90\res\mipmap-anydpi-v26\empty_tall_divider.xml
+solid;obj\Debug\90\res\mipmap-anydpi-v26\border.xml
+solid;obj\Debug\90\res\mipmap-anydpi-v26\roundcorner.xml
+Spinner;obj\Debug\90\res\layout\content_layout.xml
+string;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\values\strings.xml
+string;obj\Debug\90\res\values\strings.xml
+stroke;obj\Debug\90\res\mipmap-anydpi-v26\border.xml
+style;obj\Debug\90\res\values\styles.xml
+TableLayout;obj\Debug\90\res\layout\result_layout.xml
+TextView;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loading.xml
+TextView;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
+TextView;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
+TextView;obj\Debug\90\res\layout\content_layout.xml
+TextView;obj\Debug\90\res\layout\main_layout.xml
+TextView;obj\Debug\90\res\mipmap-anydpi-v26\spinner_item.xml
