@@ -444,3 +444,16 @@ C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\
 C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\assets\Mono.Android.pdb
 C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\Asphlat - Gradcoop.csprojAssemblyReference.cache
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\src\md547fdb07a56caf43ca87e9b8ef21bb8cb\ContentAcivity.java
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\src\md547fdb07a56caf43ca87e9b8ef21bb8cb\MainActivity.java
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\src\md547fdb07a56caf43ca87e9b8ef21bb8cb\ResultActivity.java
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\res\layout\updateprices_layout.xml
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\src\md53dbacf416c54e6fa18837342234aaffa\UpdatePricesActivity.java
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\src\md5bc9a222772c71795f5a7c7f81aef05ad\ChangePrices.java
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\res\layout\changeprices_layout.xml
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\res\layout\checkprices_layout.xml
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\src\md5bc9a222772c71795f5a7c7f81aef05ad\CheckPricesActivity.java
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\res\layout\transport_layout.xml
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\src\md5bc9a222772c71795f5a7c7f81aef05ad\TransportActivity.java
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\res\layout\installation_layout.xml
+C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\android\src\md5bc9a222772c71795f5a7c7f81aef05ad\InstallationActivity.java

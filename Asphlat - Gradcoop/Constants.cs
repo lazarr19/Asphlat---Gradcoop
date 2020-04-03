@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Android.App;
+using Android.Content;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -16,38 +19,112 @@ namespace Asphalt__Gradcoop {
             new AsphaltBase("Teko Mining - Vinca", 44.777293, 20.586656)
             };
 
-        public static void SetRadnomPrices() {
-            AsphaltBases[0].AsphaltPrice[Asphalt.AB11] = 10234;
-            AsphaltBases[1].AsphaltPrice[Asphalt.AB11] = 7100;
-            AsphaltBases[3].AsphaltPrice[Asphalt.AB11] = 9890;
-            AsphaltBases[4].AsphaltPrice[Asphalt.AB11] = 12890;
-            AsphaltBases[5].AsphaltPrice[Asphalt.AB11] = 6520;
+        public static AsphaltBase FindAsphaltBase(string name)
+        {
+            foreach(var aBase in AsphaltBases){
+                if (aBase.Location.Name == name)
+                    return aBase;
+            }
+            return null;
+        }
+
+        public static void LoadAsphaltBases() { 
+            var prefs = Application.Context.GetSharedPreferences("PreferencesConstants", FileCreationMode.Private);
+
+            if (prefs.Contains("lista"))
+            {
+                JsonSerializerSettings settings = new JsonSerializerSettings();
+                settings.ContractResolver = new Json.DictionaryAsArrayResolver();
+                AsphaltBases = JsonConvert.DeserializeObject<List<AsphaltBase>>(prefs.GetString("lista", null), settings);
+            }
+        }
+
+        public static void UpdateAsphaltBases()
+        {
+            var prefs = Application.Context.GetSharedPreferences("PreferencesConstants", FileCreationMode.Private);
+            var editor = prefs.Edit();
+
+            JsonSerializerSettings settings = new JsonSerializerSettings();
+            settings.ContractResolver = new Json.DictionaryAsArrayResolver();
+
+            editor.PutString("lista", JsonConvert.SerializeObject(AsphaltBases, settings));
+            editor.Commit();
+        }
+
+
+        public static void SetRadnomPrices() { 
+            AsphaltBases[0].AddAsphalt(10234,new DateTime(2020,1,1),Asphalt.AB11);
+            AsphaltBases[1].AddAsphalt(7100, new DateTime(2020, 1, 1), Asphalt.AB11);
+            AsphaltBases[3].AddAsphalt(9890, new DateTime(2020, 1, 1), Asphalt.AB11);
+            AsphaltBases[4].AddAsphalt(12890, new DateTime(2020, 1, 1), Asphalt.AB11);
+            AsphaltBases[5].AddAsphalt(6520, new DateTime(2020, 1, 1), Asphalt.AB11);
         }
 
         public static bool CheckString(string s) {
             return s.All(c => char.IsLetterOrDigit(c) || c==' ');
         }
 
-        public static double PriceForDistance(double distance) {
-            if (distance <= 15)
-                return distance * 3500;
+        public static double EmulsionPrice { get; set; } = 100;
+
+        public static double InstallationPrice { get; set; } = 1200;
+
+        public static double CoefficientForDistance(double distance)
+        {
+            if (distance <= 10)
+                return 170;
+            else
+                if (distance <= 15)
+                return 220;
             else
                 if (distance <= 20)
-                return distance * 3300;
+                return 250;
             else
                 if (distance <= 25)
-                return distance * 3000;
+                return 280;
             else
                 if (distance <= 30)
-                return distance * 2900;
+                return 310;
+            else
+                if (distance <= 35)
+                return 350;
+            else
+                if (distance <= 40)
+                return 390;
+            else
+                if (distance <= 45)
+                return 430;
             else
                 if (distance <= 50)
-                return distance * 2500;
+                return 470;
+            else
+                if (distance <= 55)
+                return 510;
+            else
+                if (distance <= 60)
+                return 550;
+            else
+                if (distance <= 65)
+                return 590;
+            else
+                if (distance <= 70)
+                return 630;
+            else
+                if (distance <= 75)
+                return 670;
+            else
+                if (distance <= 80)
+                return 711;
             else
                 if (distance <= 100)
-                return distance * 2300;
+                return 880;
             else
-                return distance * 2000;
+                if (distance <= 120)
+                return 1050;
+            else
+                if (distance <= 150)
+                return 1300;
+            else
+                return 1550;
         }
 
         public static double GetInvariantCultureDouble(string str) {

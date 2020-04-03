@@ -64,15 +64,25 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\ChangePrices.cs" />
+    <Compile Include="Activities\CheckPricesActivity.cs" />
+    <Compile Include="Activities\InstallationActivity.cs" />
+    <Compile Include="Activities\TransportActivity.cs" />
     <Compile Include="Asphalt.cs" />
+    <Compile Include="AsphaltBase.cs" />
     <Compile Include="Constants.cs" />
-    <Compile Include="ContentAcivity.cs" />
+    <Compile Include="Activities\ContentAcivity.cs" />
+    <Compile Include="Json.cs" />
     <Compile Include="LocationProxy.cs" />
-    <Compile Include="MainActivity.cs" />
-    <Compile Include="PDF.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Offer.cs" />
+    <Compile Include="PdfDocumentBuilder.cs" />
+    <Compile Include="PdfDocumentCreator.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResultActivity.cs" />
+    <Compile Include="Activities\ResultActivity.cs" />
+    <Compile Include="TableCreator.cs" />
+    <Compile Include="Activities\UpdatePricesActivity.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +167,31 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\updatePrices_layout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\changePrices_layout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\checkPrices_layout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\transport_layout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\installation_layout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

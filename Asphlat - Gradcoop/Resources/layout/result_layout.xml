@@ -46,21 +46,15 @@
         android:padding="10dp"
          />
 
-        <TableLayout
-        android:id="@+id/DistanceTable"
-        android:layout_width="match_parent"
+        <Button
+        android:id="@+id/PDFButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:padding="10dp"
-         />
-    
-        <TableLayout
-        android:id="@+id/PriceTable"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:padding="10dp"
-        />
+        android:text="Kreiraj PDF  \>"
+        android:textSize="16sp"
+        android:paddingHorizontal="25dp"
+        android:background="@mipmap/roundcorner"
+    />
         </LinearLayout>
     </ScrollView>
 

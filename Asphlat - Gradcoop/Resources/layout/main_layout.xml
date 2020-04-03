@@ -79,6 +79,16 @@
         android:background="@mipmap/roundcorner"
     />
 
+    <Button
+        android:id="@+id/UpdateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azuriraj cenu asfalta  \>"
+        android:textSize="10sp"
+        android:paddingHorizontal="10dp"
+        android:background="@mipmap/roundcorner"
+    />
+
 
     <RelativeLayout
         android:layout_width="match_parent"

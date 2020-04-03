@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.asphlat__gradcoop" android:installLocation="preferExternal">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.asphlat__gradcoop" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="28" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -19,6 +19,11 @@
       </intent-filter>
     </activity>
     <activity android:label="ResultActivity" android:name="md53dbacf416c54e6fa18837342234aaffa.ResultActivity" />
+    <activity android:label="UpdatePricesActivity" android:name="md53dbacf416c54e6fa18837342234aaffa.UpdatePricesActivity" />
+    <activity android:label="ChangePrices" android:name="md5bc9a222772c71795f5a7c7f81aef05ad.ChangePrices" />
+    <activity android:label="CheckPricesActivity" android:name="md5bc9a222772c71795f5a7c7f81aef05ad.CheckPricesActivity" />
+    <activity android:label="InstallationActivity" android:name="md5bc9a222772c71795f5a7c7f81aef05ad.InstallationActivity" />
+    <activity android:label="Transport" android:name="md5bc9a222772c71795f5a7c7f81aef05ad.TransportActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.asphlat__gradcoop.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

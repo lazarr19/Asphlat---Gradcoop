@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:gravity="center_horizontal">
+
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logogc"
+        android:background="#ffffff00"
+        android:padding="20dp"
+        />
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:gravity="center_horizontal"
+        >
+
+    <LinearLayout 
+        
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:gravity="center_horizontal"
+            >
+
+        <TableLayout
+        android:id="@+id/TransportTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+         />
+
+        <Button
+        android:id="@+id/TransportNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nastavi  \>"
+        android:textSize="16sp"
+        android:paddingHorizontal="25dp"
+        android:background="@mipmap/roundcorner"
+         />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,14 +1,25 @@
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\changeprices_layout.xml
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\checkprices_layout.xml
 @string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\content_layout.xml
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\installation_layout.xml
 @string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\main_layout.xml
 @string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\result_layout.xml
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\transport_layout.xml
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\updateprices_layout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 androidhud.ProgressWheel;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
 attr;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\values\attrs.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\90\res\layout\changeprices_layout.xml
+Button;obj\Debug\90\res\layout\checkprices_layout.xml
 Button;obj\Debug\90\res\layout\content_layout.xml
+Button;obj\Debug\90\res\layout\installation_layout.xml
 Button;obj\Debug\90\res\layout\main_layout.xml
+Button;obj\Debug\90\res\layout\result_layout.xml
+Button;obj\Debug\90\res\layout\transport_layout.xml
+Button;obj\Debug\90\res\layout\updateprices_layout.xml
 cache-path;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
@@ -27,15 +38,26 @@ gradient;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Grad
 gradient;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
 ImageButton;obj\Debug\90\res\layout\main_layout.xml
 ImageView;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
+ImageView;obj\Debug\90\res\layout\changeprices_layout.xml
+ImageView;obj\Debug\90\res\layout\checkprices_layout.xml
 ImageView;obj\Debug\90\res\layout\content_layout.xml
+ImageView;obj\Debug\90\res\layout\installation_layout.xml
 ImageView;obj\Debug\90\res\layout\main_layout.xml
 ImageView;obj\Debug\90\res\layout\result_layout.xml
+ImageView;obj\Debug\90\res\layout\transport_layout.xml
+ImageView;obj\Debug\90\res\layout\updateprices_layout.xml
 item;obj\Debug\90\res\menu\menu_main.xml
 item;obj\Debug\90\res\values\styles.xml
+LinearLayout;obj\Debug\90\res\activities\installationactivity.xml
+LinearLayout;obj\Debug\90\res\layout\changeprices_layout.xml
+LinearLayout;obj\Debug\90\res\layout\checkprices_layout.xml
 LinearLayout;obj\Debug\90\res\layout\content_layout.xml
+LinearLayout;obj\Debug\90\res\layout\installation_layout.xml
 LinearLayout;obj\Debug\90\res\layout\main_layout.xml
 LinearLayout;obj\Debug\90\res\layout\result_layout.xml
 LinearLayout;obj\Debug\90\res\layout\test_layout.xml
+LinearLayout;obj\Debug\90\res\layout\transport_layout.xml
+LinearLayout;obj\Debug\90\res\layout\updateprices_layout.xml
 menu;obj\Debug\90\res\menu\menu_main.xml
 paths;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 ProgressBar;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loading.xml
@@ -50,7 +72,12 @@ resources;obj\Debug\90\res\values\dimens.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
 resources;obj\Debug\90\res\values\strings.xml
 resources;obj\Debug\90\res\values\styles.xml
+ScrollView;obj\Debug\90\res\layout\changeprices_layout.xml
+ScrollView;obj\Debug\90\res\layout\checkprices_layout.xml
+ScrollView;obj\Debug\90\res\layout\installation_layout.xml
 ScrollView;obj\Debug\90\res\layout\result_layout.xml
+ScrollView;obj\Debug\90\res\layout\transport_layout.xml
+ScrollView;obj\Debug\90\res\layout\updateprices_layout.xml
 shape;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
 shape;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
 shape;obj\Debug\90\res\mipmap-anydpi-v26\border.xml
@@ -64,10 +91,18 @@ string;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradco
 string;obj\Debug\90\res\values\strings.xml
 stroke;obj\Debug\90\res\mipmap-anydpi-v26\border.xml
 style;obj\Debug\90\res\values\styles.xml
+TableLayout;obj\Debug\90\res\layout\changeprices_layout.xml
+TableLayout;obj\Debug\90\res\layout\checkprices_layout.xml
+TableLayout;obj\Debug\90\res\layout\installation_layout.xml
 TableLayout;obj\Debug\90\res\layout\result_layout.xml
+TableLayout;obj\Debug\90\res\layout\transport_layout.xml
+TableLayout;obj\Debug\90\res\layout\updateprices_layout.xml
 TextView;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loading.xml
 TextView;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
 TextView;C:\Users\Lazar Radojevic\source\repos\Asphlat - Gradcoop\Asphlat - Gradcoop\obj\Debug\90\lp\1\jl\res\layout\loadingprogress.xml
+TextView;obj\Debug\90\res\layout\changeprices_layout.xml
+TextView;obj\Debug\90\res\layout\checkprices_layout.xml
 TextView;obj\Debug\90\res\layout\content_layout.xml
 TextView;obj\Debug\90\res\layout\main_layout.xml
+TextView;obj\Debug\90\res\layout\updateprices_layout.xml
 TextView;obj\Debug\90\res\mipmap-anydpi-v26\spinner_item.xml
